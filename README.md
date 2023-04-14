@@ -5,10 +5,8 @@
 
 ## Environment
 
-```
   Python version: 3.8
   Required packages: 각 Model 폴더 내의 requirements.txt 참조
-```
 
 ```
   # install packages
