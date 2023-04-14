@@ -3,6 +3,7 @@
 
 ### Feature Fusion 방식과 Decision Fusion 방식을 결합한 멀티모달 감정 인식에 관한 연구
 최근 사용자의 발화로부터 감정을 구별하는 모델에 대한 연구가 활발하게 이어짐에 따라 언어적 표현 과 더불어 반언어적 표현을 반영하기 위한 멀티모달 데이터의 활용이 주목을 받고 있다. 따라서 본 논문에서는 텍스트 데이터와 음성 데이터의 상호작용 정보를 반영하고자 Feature Fusion 방식을 사용하는 모델과 Decision Fusion 방식으로 단일 모델들을 결합하는 방법론을 제안한다. 연구 결과, 텍스트 데이터, 음성 데이터, 텍스트-음성 멀티모달 데이터를 각각 입력으로 받아 감정 인식을 진행하는 세 단일 모델보다 Stacking 기법의 앙상블을 적용한 복합 모델이 약 0.148 향상된 Accuracy를, 약 0.158 향상된 F1 Score를 달성하였다.
+
 <img width="450" alt="Model Architecture" src="https://user-images.githubusercontent.com/38968449/231982829-352a052b-3b2c-486e-9dd7-abd60179abb3.png">
 
 ## Environment
