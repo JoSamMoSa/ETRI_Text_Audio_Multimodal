@@ -1,4 +1,4 @@
-# Text Audio Multimodal Emotion Recognization
+# Text-Audio Multimodal Emotion Recognization
 [제2회 ETRI 휴먼이해 인공지능 논문경진대회](https://aifactory.space/competition/detail/2234)
 
 ## Feature Fusion 방식과 Decision Fusion 방식을 결합한 멀티모달 감정 인식에 관한 연구
@@ -27,4 +27,19 @@
 ```
   git clone https://github.com/SKTBrain/KoBERT.git
   # 경우에 따라 https://huggingface.co/skt/kobert-base-v1 에서 다운로드 후 사용해야 함.
+```
+```
+  python text_train.py
+  python text_test.py
+```
+
+### Audio Model (KoBERT)
+```
+  python audio_train.py
+  python audio_test.py
+```
+
+### Text-Audio Model (CM-BERT)
+```
+  python run_classifier.py
 ```
