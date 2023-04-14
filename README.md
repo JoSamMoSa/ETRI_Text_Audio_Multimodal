@@ -49,9 +49,8 @@
 ```
 
 ## Experiments (Ensemble)
-Text, Audio, Text-Audio 세 모델로부터 추출한 truth / red / output .npy 파일을 사용해 앙상블 학습 진행
+Text, Audio, Text-Audio 세 모델로부터 추출한 truth / pred / output npy 파일들을 사용해 앙상블 학습 진행
 
-## Experiments (Ensemble)
 | |Accuracy|F1 Score|Precision|Recall|
 |-----|-----|-----|-----|-----|
 |<strong>Stacking</strong>|<strong>0.7269</strong>|<strong>0.7138</strong>|<strong>0.7226</strong>|<strong>0.7269</strong>|
