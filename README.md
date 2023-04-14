@@ -49,7 +49,7 @@
 ## Experiments (Ensemble)
 | |Accuracy|F1 Score|Precision|Recall|
 |-----|-----|-----|-----|-----|
-|Stacking|<strong>0.7269</strong>|0.7138|0.7226|0.7269|
+|<strong>Stacking</strong>|<strong>0.7269</strong>|<strong>0.7138</strong>|<strong>0.7226</strong>|<strong>0.7269</strong>|
 |Soft voting|0.6914|0.6651|0.6814|0.6914|
 |Weighted soft voting|0.7012|0.6833|0.7016|0.7012|
 |Hard voting|0.6844|0.6633|0.6861|0.6844|
