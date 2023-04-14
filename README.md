@@ -17,9 +17,9 @@
 ## Dataset
 [한국어 멀티모달 감정 데이터셋 2019](https://nanum.etri.re.kr/share/kjnoh/KEMDy19?lang=ko_KR) 사용
 |Directory|Format|Description|
-|-----|-----|----------|
+|-----|-----|------------|
 |./annotation|.csv|세션/참여자 발화 세그먼트에 대한 관찰자의 감정 레이블 평가 파일|
-|./wav|.wav / .txt|세션/감정 상황극 내 발화 세그먼트 웨이브 파일(.wav) / 세션/감정 상황극 내 발화 세그먼트 텍스트 파일(.txt)|
+|./wav|.wav / .txt|세션/감정 상황극 내 발화 세그먼트 웨이브 파일(.wav) <br> 세션/감정 상황극 내 발화 세그먼트 텍스트 파일(.txt)|
 
 ## Usage
 ### Text Model (KoBERT)
