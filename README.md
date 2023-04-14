@@ -14,12 +14,14 @@
   # install packages
   pip install -r requirements.txt
 ```
+
 ## Dataset
 [한국어 멀티모달 감정 데이터셋 2019](https://nanum.etri.re.kr/share/kjnoh/KEMDy19?lang=ko_KR) 사용
 |Directory|Format|Description|
 |-----|-----|------------|
 |./annotation|.csv|세션/참여자 발화 세그먼트에 대한 관찰자의 감정 레이블 평가 파일|
 |./wav|.wav / .txt|세션/감정 상황극 내 발화 세그먼트 웨이브 파일(.wav) <br> 세션/감정 상황극 내 발화 세그먼트 텍스트 파일(.txt)|
+
 
 ## Usage
 ### Text Model (KoBERT)
@@ -33,7 +35,7 @@
   python text_test.py
 ```
 
-### Audio Model (KoBERT)
+### Audio Model (ModifiedAlexNet)
 ```
   python audio_train.py
   python audio_test.py
@@ -43,3 +45,12 @@
 ```
   python run_classifier.py
 ```
+
+## Experiments (Ensemble)
+| |Accuracy|F1 Score|Precision|Recall|
+|-----|-----|-----|-----|-----|
+|Stacking|<strong>0.7269</strong>|0.7138|0.7226|0.7269|
+|Soft voting|0.6914|0.6651|0.6814|0.6914|
+|Weighted soft voting|0.7012|0.6833|0.7016|0.7012|
+|Hard voting|0.6844|0.6633|0.6861|0.6844|
+
