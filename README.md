@@ -24,6 +24,7 @@
 |./wav|.wav / .txt|세션/감정 상황극 내 발화 세그먼트 웨이브 파일(.wav) <br> 세션/감정 상황극 내 발화 세그먼트 텍스트 파일(.txt)|
 
 
+
 ## Usage
 ### Text Model (KoBERT)
 
