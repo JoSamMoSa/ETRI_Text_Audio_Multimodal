@@ -30,6 +30,7 @@
 - 인덱스가 일치하는 텍스트 파일(.tsv), 오디오 파일(.npy) 생성
 
 
+
 ## Usage
 ### Text Model (KoBERT)
 
