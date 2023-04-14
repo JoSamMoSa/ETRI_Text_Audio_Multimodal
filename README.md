@@ -49,7 +49,7 @@
 ```
 
 ## Experiments (Ensemble)
-Text, Audio, Text-Audio 세 모델로부터 추출한 truth / pred / output npy 파일들을 사용해 앙상블 학습 진행
+Text, Audio, Text-Audio 세 모델로부터 추출한 _truth / _pred / _output npy 파일들을 사용해 앙상블 학습 진행
 
 | |Accuracy|F1 Score|Precision|Recall|
 |-----|-----|-----|-----|-----|
