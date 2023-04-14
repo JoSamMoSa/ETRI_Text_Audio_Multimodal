@@ -23,7 +23,8 @@
 |./annotation|.csv|세션/참여자 발화 세그먼트에 대한 관찰자의 감정 레이블 평가 파일|
 |./wav|.wav / .txt|세션/감정 상황극 내 발화 세그먼트 웨이브 파일(.wav) <br> 세션/감정 상황극 내 발화 세그먼트 텍스트 파일(.txt)|
 
-<br>
+
+
 ### Preprocessing
 - 발화자와 청자의 감정 Label 중 발화자의 Label만 추출
 - 감정 Label이 여러 개일 경우, 1개만 채택
@@ -31,7 +32,8 @@
 - 인덱스가 일치하는 텍스트 파일(.tsv), 오디오 파일(.npy) 생성
 
 
-<br>
+
+
 ## Usage
 ### Text Model (KoBERT)
 
